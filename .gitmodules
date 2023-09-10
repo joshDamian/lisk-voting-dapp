@@ -1,3 +1,3 @@
 [submodule "blockchain-client"]
 	path = blockchain-client
-	url = https://github.com/joshDamian/voter-app-with-lisk.git
+	url = https://github.com/joshDamian/lisk-voting-dapp.blockchain-client
