@@ -19,3 +19,16 @@ Pollify is a decentralized voting application using the Lisk SDK, where users ca
 **Expiration and Closing:** Polls automatically close and results are finalized when the specified expiration date is reached.
 
 ### Testing Instructions
+Clone the repo;
+
+**Running Blockchain Client**
+- `cd` to the `blockchain-client` folder.
+- Run `npm install` and `npm run build` in the `blockchain-client` folder.
+- Run `./bin/run start --config=config/custom_config.json` to start the blockchain client.
+
+**Dapp frontend** 
+- `cd` to the `dapp-frontend` folder.
+- Run `npm install` to install dependencies.
+- Run `npm run dev` to start the application.
+
+PS: The blockchain client should be running before starting the frontend application.
